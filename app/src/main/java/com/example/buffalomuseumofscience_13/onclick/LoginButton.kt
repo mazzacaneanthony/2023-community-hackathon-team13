@@ -1,4 +1,4 @@
-package com.example.buffalomuseumofscience_13
+package com.example.buffalomuseumofscience_13.onclick
 
 import android.util.Log
 import android.view.View
