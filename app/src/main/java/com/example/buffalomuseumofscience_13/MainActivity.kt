@@ -15,4 +15,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.login_button).setOnClickListener(loginButton)
-}
+        setSupportActionBar(findViewById(R.id.museum_toolbar))
+}}
