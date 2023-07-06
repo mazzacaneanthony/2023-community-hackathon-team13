@@ -152,3 +152,6 @@ fabric.properties
 .cxx
 local.properties
 >>>>>>> 48942e4 (setting up basic templates)
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/kotlinc.xml
+/.idea/codeStyles/Project.xml
