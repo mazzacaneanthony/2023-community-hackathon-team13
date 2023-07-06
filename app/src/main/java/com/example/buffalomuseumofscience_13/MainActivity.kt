@@ -13,18 +13,6 @@ class MainActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
-//        LocationRequest.requestLocationPermission(this)
-    }
-
-//        setContentView(R.layout.activity_main)
-//
-//        // Setting the login the button to the onclick event
-//        findViewById<Button>(R.id.login_button).setOnClickListener{
-//
-//        }
-    
-    
-    
-    
+        setContentView(R.layout.activity_main)
+        findViewById<Button>(R.id.login_button).setOnClickListener(loginButton)
 }
