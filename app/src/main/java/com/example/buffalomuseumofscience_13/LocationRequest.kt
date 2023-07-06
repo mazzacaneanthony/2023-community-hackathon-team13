@@ -2,6 +2,7 @@ package com.example.buffalomuseumofscience_13
 
 import android.Manifest
 import android.content.pm.PackageManager
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
