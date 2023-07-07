@@ -1,13 +1,21 @@
 package com.example.buffalomuseumofscience_13
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
-object useragreement : AppCompatActivity() {
+class useragreement : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.location_agreement)
+
+        findViewById<Button>(R.id.continue_agreement).setOnClickListener{
+            LocationRequest.checkLocationPermissions(this)
+            val Map1 = Intent(this, map1View::class.java)
+            startActivity(Map1)
+        }
     }
 }
