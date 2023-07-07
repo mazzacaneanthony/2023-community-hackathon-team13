@@ -15,7 +15,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.login_button).setOnClickListener(loginButton)
-        findViewById<EditText>(R.id.guest_login).setOnClickListener(guestLogin)
-        findViewById<EditText>(R.id.userAgreement).setOnClickListener(userAgreement)
+        findViewById<EditText>(R.id.guest_login).setOnClickListener{
+            setContentView(R.layout.content_guest_login)
+        }
+        findViewById<EditText>(R.id.userAgreement).setOnClickListener{
+            setContentView(R.layout.location_agreement)
+        }
     }
 }
