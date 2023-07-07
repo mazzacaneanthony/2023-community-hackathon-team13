@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.buffalomuseumofscience_13.databinding.FragmentSecondBinding
 
+
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
