@@ -112,30 +112,4 @@
         app:layout_constraintBottom_toTopOf="@+id/login_button"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="461dp"
-        android:layout_marginEnd="248dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/userAgreement"
-        android:layout_width="145dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-black"
-        android:inputType="textPersonName"
-        android:text="User Agreement"
-        android:textAlignment="center"
-        android:textColor="#3F51B5"
-        android:textSize="11sp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/guest_login" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
