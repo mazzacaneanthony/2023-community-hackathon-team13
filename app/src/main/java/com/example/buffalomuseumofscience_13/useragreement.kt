@@ -13,7 +13,6 @@ class useragreement : AppCompatActivity() {
         setContentView(R.layout.location_agreement)
 
         findViewById<Button>(R.id.continue_agreement).setOnClickListener{
-            LocationRequest.checkLocationPermissions(this)
             val Map1 = Intent(this, map1View::class.java)
             startActivity(Map1)
         }
